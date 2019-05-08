@@ -1,0 +1,19 @@
+.totals-data {
+    border: 3px solid;
+    margin: 2%;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    border-radius: 5px;
+    font-size: larger;
+}
+
+.totals-select {
+    border: 2px solid;
+    width: 100%;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    font-size: x-large;
+    border-radius: 5px;
+}

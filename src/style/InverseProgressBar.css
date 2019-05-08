@@ -1,0 +1,51 @@
+.ranking-item {
+
+}
+
+/* simple, float it right instead of left */
+.progress-right .progress-bar {
+    position: relative;
+    border-radius: 20px;
+    width: 10%;
+    margin-left: 90%    ;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.progress {
+    height: 40px !important;
+    border-radius: 20px !important;
+}
+
+.ranking-item-title {
+    margin-left: 10px;
+    margin-bottom: 0;
+    font-size: smaller;
+    display: block;
+}
+
+.ranking-item-sub-title {
+    margin-left: 10px;
+    margin-bottom: 0;
+    font-size: x-small;
+    display: block;
+    color: gray;
+}
+
+.ranking-item-number {
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.inverse-progress-bar-value {
+    color: #7b7b7b;
+    position: absolute;
+    top: 22%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: medium;
+    font-weight: bolder;
+}

@@ -1,0 +1,19 @@
+{
+  "short_name": "DaviCréditos",
+  "name": "DaviCréditos",
+  "icons": [
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "theme_color": "#cccccc",
+  "background_color": "#bababa",
+  "related_applications": [],
+  "prefer_related_aplications": false,
+  "gcm_sender_id": "103953800507"
+}

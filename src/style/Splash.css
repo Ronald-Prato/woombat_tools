@@ -1,0 +1,92 @@
+.splash-main-container {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+
+    display: grid;
+    grid-template-rows: 1fr 2fr
+}
+
+.main-logo-container {
+    width: 100%;
+    background: #e30518;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+.main-img {
+    /*box-shadow: 1px 0 30px black;*/
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+
+.main-logo {
+    transform: scale(.8);
+
+}
+.subtitle {
+    font-weight: bolder;
+    color: white;
+}
+
+.irregular-shape1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3em;
+    background: #b30000;
+    z-index: 100;
+    box-sizing: border-box;
+}
+
+.irregular-shape2 {
+    position:absolute;
+    bottom: 6%;
+    right: -28%;
+    width:250px;
+    height:120px;
+    overflow:hidden;
+    z-index: 0;
+    background: #b30000;
+    transform: rotate(180deg);
+
+}
+
+.irregular-shape2:before,.irregular-shape2:after{
+    content: '';
+    position: absolute;
+}
+.irregular-shape2:before{
+
+    right: -48%;
+    top: -1%;
+    background: #e30518;
+    width: 270px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.patch1, .patch2 {
+    position: absolute;
+    z-index: 50;
+    background: #e30518;
+}
+.patch1 {
+    width: 2em;
+    height: 12.5em;
+    bottom: -6%;
+    right: 32%;
+    background: #e30518;
+}
+.patch2 {
+    width: 12em;
+    height: 2em;
+    right: 0;
+    bottom: 21%;
+}
